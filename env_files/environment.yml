@@ -1,0 +1,4 @@
+name: bbq_sr_env
+channels:
+  - defaults
+prefix: /home/srajwal/anaconda3/envs/bbq_sr_env
