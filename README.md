@@ -10,7 +10,7 @@ This paper studies the effect of chain-of-thought prompting, a recent approach t
 1. Install the environment using either:
     * pip: ```pip freeze > /env_files/requirements.txt```
     * conda: ```conda env create -f /env_filesenvironment.yml```
-2. Huggingface access token is required for the following five models:
+2. [Huggingface access token](https://huggingface.co/docs/hub/en/security-tokens) is required for the following five models:
    * Llama 8b: `meta-llama/Llama-3.1-8B-Instruct`
    * Mistral: `mistralai/Mistral-7B-Instruct-v0.3`
    * Phi: `microsoft/Phi-3.5-mini-instruct`
