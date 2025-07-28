@@ -18,8 +18,7 @@ This paper studies the effect of chain-of-thought prompting, a recent approach t
    * Gemma: `google/gemma-2-2B-it`
 4. Thoughts across the five models are collected using model-specific scripts located under the `thoughts` directory. Each script is named according to the model it processes (e.g., `gemma.py`, `phi.py`, etc.). Note that the input in these files is the BBQ data.
    * `python {model_name}.py`
-6. The `biased_labels.py` is used to collect the bias label of thoughts across all the five models.
-   * `python biased_labels.py`
+6. Run `python biased_labels.py` to collect the bias label of thoughts across all the five models using Llama 70b model (ground truth for this study).
 8. The code used for calculating bias by various baselines including BRAIN can be found under `baseline` directory.
   
 ## 📑 Citation
