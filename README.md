@@ -10,9 +10,17 @@ This paper studies the effect of chain-of-thought prompting, a recent approach t
 1. Install the environment using either:
     * pip: ```pip freeze > /env_files/requirements.txt```
     * conda: ```conda env create -f /env_filesenvironment.yml```
-2. Thoughts collection:
-3. Biased label collection:
-4. Baselines:   
+2. Huggingface access token is required for the following five models:
+   * Llama 8b: `meta-llama/Llama-3.1-8B-Instruct`
+   * Mistral: `mistralai/Mistral-7B-Instruct-v0.3`
+   * Phi: `microsoft/Phi-3.5-mini-instruct`
+   * Qwen: `Qwen/Qwen2.5-7B-Instruct`
+   * Gemma: `google/gemma-2-2B-it`
+4. Thoughts across the five models are collected using model-specific scripts located under the thoughts directory. Each script is named according to the model it processes (e.g., `gemma.py`, `phi.py`, etc.).
+   * `python {model_name}.py`
+6. The `biased_labels.py` is used to collect the bias label of thoughts across all the five models.
+   * `python biased_labels.py`
+8. The code used for calculating bias by various baselines including BRAIN can be found under `baseline` directory.
   
 ## 📑 Citation
 
