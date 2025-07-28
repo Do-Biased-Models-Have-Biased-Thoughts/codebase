@@ -16,7 +16,7 @@ This paper studies the effect of chain-of-thought prompting, a recent approach t
    * Phi: `microsoft/Phi-3.5-mini-instruct`
    * Qwen: `Qwen/Qwen2.5-7B-Instruct`
    * Gemma: `google/gemma-2-2B-it`
-4. Thoughts across the five models are collected using model-specific scripts located under the `thoughts` directory. Each script is named according to the model it processes (e.g., `gemma.py`, `phi.py`, etc.).
+4. Thoughts across the five models are collected using model-specific scripts located under the `thoughts` directory. Each script is named according to the model it processes (e.g., `gemma.py`, `phi.py`, etc.). Note that the input in these files is the BBQ data.
    * `python {model_name}.py`
 6. The `biased_labels.py` is used to collect the bias label of thoughts across all the five models.
    * `python biased_labels.py`
