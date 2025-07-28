@@ -26,7 +26,7 @@ This paper studies the effect of chain-of-thought prompting, a recent approach t
 Please consider citing 📑 our paper if our repository is helpful to your work.
 ```bibtex
 @inproceedings{
-2025do,
+colm2025biasedthoughts,
 title={Do Biased Models Have Biased Thoughts?},
 author={Swati Rajwal, Shivank Garg, Reem Abdel-Salam, Abdelrahman Zayed},
 booktitle={Second Conference on Language Modeling},
