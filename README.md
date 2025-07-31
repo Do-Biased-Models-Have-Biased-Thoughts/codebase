@@ -80,5 +80,6 @@ If you use this repository or find it helpful, please consider citing our paper:
   url={https://openreview.net/forum?id=vDr0RV3590}
 }
 ```
-
 ---
+### ⚖️License
+Generously distributed under the [MIT](https://opensource.org/license/MIT)
