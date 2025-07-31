@@ -12,7 +12,7 @@ This paper investigates **5 popular large language models** across **11 differen
 ## 📂 Dataset
 
 - 🔗 Input [**BBQ dataset**](https://github.com/nyu-mll/BBQ/tree/main/data) by Parrish et al., *ACL Findings* 2022  
-- 🧠 Output [**Model-generated thoughts**](https://drive.google.com/drive/folders/18OZBv4u3sGquUauykCdytHTTRY1XXs64?usp=sharing)
+- 🔗 Output [**Model-generated thoughts**](https://drive.google.com/drive/folders/18OZBv4u3sGquUauykCdytHTTRY1XXs64?usp=sharing)
 
 ---
 
