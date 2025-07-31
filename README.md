@@ -1,8 +1,6 @@
 # 🤔 Do Biased Models Have Biased Thoughts?
 
-This paper investigates **chain-of-thought (CoT) prompting**—an approach that traces a model's intermediate reasoning steps—and its implications for **fairness**. 
-
-We analyze **5 popular large language models** across **11 different bias types** using fairness metrics. Surprisingly, we find that **bias in a model's "thoughts" is not strongly correlated with bias in its final outputs** (correlation < 0.6, *p* < 0.001 in most cases). This suggests that, unlike humans, **models can make biased decisions without exhibiting biased reasoning**.
+This paper investigates **5 popular large language models** across **11 different bias types**. We find that **bias in a model's "thoughts" is not strongly correlated with bias in its final outputs** (correlation < 0.6, *p* < 0.001 in most cases). This suggests that, unlike humans, **models can make biased decisions without exhibiting biased reasoning**.
 
 <figure>
   <img src="2025_COLM.png" alt="BRAIN Framework Diagram" width="40%">
