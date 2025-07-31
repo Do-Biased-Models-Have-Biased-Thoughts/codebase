@@ -84,8 +84,7 @@ If you use this repository or find it helpful, please consider citing our paper:
 Rajwal, S., Garg, S., Abdel-Salam, R., & Zayed, A. (2025). *Do biased models have biased thoughts?* In *Proceedings of the Second Conference on Language Modeling*. Retrieved from https://openreview.net/forum?id=vDr0RV3590
 
 ### 📖 MLA Style  
-Rajwal, Swati, et al. "Do Biased Models Have Biased Thoughts?" *Second Conference on Language Modeling*, 2025, https://openreview.net/forum?id=vDr0RV3590.
-
+Rajwal, Swati, Shivank Garg, Reem Abdel-Salam, and Abdelrahman Zayed. "Do Biased Models Have Biased Thoughts?" Proceedings of the Second Conference on Language Modeling, 2025, https://openreview.net/forum?id=vDr0RV3590
 ---
 ### ⚖️License
 Generously distributed under the [MIT](https://opensource.org/license/MIT)
