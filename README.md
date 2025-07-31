@@ -1,6 +1,10 @@
 # Do Biased Models Have Biased Thoughts?
 
 This paper studies the effect of chain-of-thought prompting, a recent approach that studies the steps followed by the model before it responds, on fairness. To answer our question, we conduct experiments on $5$ popular large language models using fairness metrics to quantify $11$ different biases in the model's thoughts and output. Our results show that the bias in the thinking steps is not highly correlated with the output bias (less than $0.6$ correlation with a $p$-value smaller than $0.001$ in most cases). In other words, unlike human beings, the tested models with biased decisions do not always possess biased thoughts.
+<figure>
+  <img src="2025_COLM.png" alt="Example Image" width="40%">
+  <figcaption><b><i>Figure 1:</b> BRAIN framework for evaluating agreement between model thought and prediction. BRAIN computes the JS divergence between the predictions for two cases: once when feeding the context and question, and another when feeding the question and thought.</i></figcaption>
+</figure>
 
 ## Data
 1. BBQ dataset (input) can be found [here](https://github.com/nyu-mll/BBQ/tree/main/data) by Parrish et al., ACL Findings 2022
