@@ -4,7 +4,7 @@ This paper investigates **5 popular large language models** across **11 differen
 
 <figure>
   <img src="2025_COLM.png" alt="BRAIN Framework Diagram" width="40%">
-  <figcaption><b><i>Figure 1:</b> BRAIN framework for evaluating agreement between model thought and prediction. BRAIN computes the JS divergence between the predictions for two cases: once when feeding the context and question, and another when feeding the question and thought.</i></figcaption>
+  <figcaption><b><i>Figure 1:</b> The BRAIN framework evaluates agreement between model thought and prediction by computing the JS divergence between predictions in two cases: one with context and question, and another with only question and thought.</i></figcaption>
 </figure>
 
 ---
